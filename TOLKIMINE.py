@@ -51,9 +51,6 @@ kuidasSisestada.grid(column=0, row=0, padx=5, pady=5, sticky=(E,N,W))
 failinimi2 = ttk.Label(raam, text="Sisesta faili nimi, mis on samas kaustas käesoleva programmiga (NT:('sonad.txt')):")
 failinimi2.grid(column=0, row=1, padx=5, pady=5, sticky=(N, E, W))
  
-#edaspidi on nupud tkInteris
- 
-mispidi=input("Kui soovid, et programm küsiks inglise keeles, sisesta: ING-EST ja vastupidi: EST-ING")
  
 esteng = ttk.Label(raam, text="Kui soovid, et programm küsiks inglise keeles, sisesta: ING-EST ja vastupidi: EST-ING:")
 esteng.grid(column=0, row=2, padx=5, pady=5, sticky=(N, E, W))
